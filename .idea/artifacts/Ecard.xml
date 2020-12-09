@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Ecard">
+    <output-path>$PROJECT_DIR$/out/artifacts/Ecard</output-path>
+    <root id="archive" name="Ecard.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Ecard" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/ojdbc6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.4.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
